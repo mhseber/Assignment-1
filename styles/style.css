@@ -146,7 +146,7 @@
     height: 37px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
     text-align: center;
 }
@@ -166,4 +166,83 @@
     height: 550px;
     border-radius: 16px;
     padding: auto;
+}
+
+/* target section styles */
+
+
+.target-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.target-text h1 {
+    width: 852px;
+    height: 37px;
+    padding: 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: 650px;
+}
+
+.target-text p {
+    margin-left: 550px;
+    width: 852px;
+    height: 52px;
+    color: darkgrey;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.target-box {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+
+
+}
+
+.target-box-second {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.target-box-third {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target-box-one img {
+    height: 50px;
+}
+
+.target-box-one h2 {
+    width: 284px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.target-box-one a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    width: 284px;
+    height: 19px;
+}
+
+.target-box-one {
+    padding: 40px;
 }
