@@ -246,3 +246,91 @@
 .target-box-one {
     padding: 40px;
 }
+
+/* Support style */
+.Support-section {
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 150px;
+    margin: 0 auto;
+    width: 1500px;
+    height: 400px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+}
+
+.support {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.Support-text {
+    text-align: center;
+}
+
+.Support-text h1 {
+
+    margin: 0 auto;
+    width: 292px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.Support-text p {
+    color: darkgrey;
+    ;
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.input-btn {
+    display: flex;
+}
+
+.Support-input input {
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+    border: none;
+
+}
+
+.Support-btn button {
+    position: static;
+    font-size: 20px;
+    width: 120px;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
