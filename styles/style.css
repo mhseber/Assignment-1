@@ -126,3 +126,44 @@
     margin-top: 40px;
 
 }
+
+/* My Inspiration styles */
+.Inspiration {
+    width: 1076px;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.Inspiration-one {
+    margin-left: 160px;
+}
+
+.Inspiration-one h1 {
+    width: 852px;
+    height: 37px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.Inspiration-one p {
+    color: darkgrey;
+    width: 852px;
+    height: 52px;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Inspiration-two iframe {
+    margin-left: 5px;
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+    padding: auto;
+}
