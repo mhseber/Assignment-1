@@ -334,3 +334,31 @@
     border-radius: 8px;
     background: rgb(255, 255, 255);
 }
+
+/* footer styles */
+.footer {
+    margin-top: 20px;
+}
+
+.footer-end {
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.footer-end div h5 {
+    font-size: 30px;
+}
+
+.footer-anc a img {
+    margin-top: 40px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 30px;
+    font-weight: 40px;
+    width: 40px;
+
+}
